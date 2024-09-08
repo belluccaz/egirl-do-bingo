@@ -1,0 +1,51 @@
+body {
+    font-family: 'Cinzel', serif;
+    background: url('/img/horde-love.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.carta-container, .timeline {
+    background: rgba(0, 0, 0, 0.75);  /* Fundo translúcido */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.timeline h1, .carta-container h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.timeline ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline-item {
+    padding: 20px;
+    margin-bottom: 10px;
+    border-left: 2px solid #ccc;
+}
+
+.timeline-date {
+    font-size: 1.2rem;
+    color: #b3b3b3;
+}
+
+/* Estilo da carta com fonte de cartas do WoW */
+.carta-container h1, .carta-container p {
+    font-family: 'Cinzel', serif; /* Fonte que remete ao estilo do WoW */
+    color: #e0dcdc;
+    font-size: 20px;
+}
+
+.carta-container .signature {
+    font-size: 22px;
+    color: #e0dcdc;
+    margin-top: 30px;
+    font-style: italic;
+}
