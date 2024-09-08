@@ -4,8 +4,6 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: url('./img/horde-love.jpg') no-repeat center center fixed;
-    background-size: cover; /* Faz a imagem cobrir o fundo por completo */
 }
 
 .timeline-container, .carta-container {
@@ -15,6 +13,18 @@ body {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden; /* Para garantir que a imagem de fundo não ultrapasse o container */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
 }
 
 .timeline h1, .carta-container h1 {
