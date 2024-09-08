@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     Sei que a distância pode ser um obstáculo, mas também acredito que o que sinto por você é capaz de superar qualquer barreira. Cada risada sua, cada mensagem que recebo de você, fortalece o que eu quero para nós. Lorena, você é incrível, e não importa quanto tempo passe ou quantos quilômetros nos separem, eu vou continuar acreditando nisso.
 
-    Com você, quero criar novas memórias, realizar sonhos e, quem sabe, construir um futuro juntos. Até que possamos estar lado a lado, eu estarei aqui, esperando o momento certo para te dizer isso pessoalmente.`;
+    Com você, quero criar novas memórias, realizar sonhos e, quem sabe, construir um futuro juntos. Eu não sou perfeito, mas por você, quero me tornar alguém melhor. Até que possamos estar lado a lado, eu estarei aqui, esperando o momento certo para te dizer isso pessoalmente.`;
 
     let index = 0;
     const speed = 50; // Velocidade de digitação (milissegundos)
